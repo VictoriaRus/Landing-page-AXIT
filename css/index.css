@@ -1,0 +1,47 @@
+@import url("../css/cdn.css");
+@import url("../css/our_process.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+section {
+    padding: 80px 0 96px;
+}
+
+.section__title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+hr {
+    width: 64px;
+    height: 2px;
+    margin: 34px auto;
+    border: none;
+    background-color: #e72424;
+}
+
+.section__description p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878b;
+    text-align: center;
+}
+
+.wrap{
+    margin-top: 68px;
+    text-align: center;
+}
