@@ -10,16 +10,13 @@
     text-align: center;
 }
 
-.card-pricing li{
-    margin-bottom: 2px;
-}
-
 .card-pricing__rate{
     font-weight: 700;
     font-size: 20px;
     line-height: 50px;
     background-color: rgba(51, 51, 51, 1);
     color: rgba(255, 255, 255, 1);
+    margin-bottom: 2px;
 }
 
 .card-pricing__cost{
@@ -29,6 +26,7 @@
     line-height: 100px;
     background-color: rgba(51, 51, 51, 1);
     color: rgba(255, 255, 255, 1);
+    margin-bottom: 2px;
 }
 
 .card-pricing__purpose{
