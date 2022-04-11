@@ -1,6 +1,8 @@
 @import url("../css/cdn.css");
 @import url("../css/our_process.css");
 @import url("../css/pricing.css");
+@import url("../css/testtimonials.css");
+@import url("../css/noname-section.css");
 
 * {
     margin: 0;
@@ -27,11 +29,12 @@ section {
     text-transform: uppercase;
 }
 
-hr {
+.section__title::after{
+    content: "";
     width: 64px;
     height: 2px;
+    display: block;
     margin: 34px auto;
-    border: none;
     background-color: #e72424;
 }
 
@@ -45,7 +48,21 @@ hr {
 
 .wrap{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 68px -15px 0;
+}
+
+.btn{
+    position: relative;
+    z-index: 2;
+    width: 135px;
+    height: 42px;
+    color: #FFFFFF;
+    background: none;
+    border: 1px solid #FFFFFF;
+
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
 }
