@@ -1,0 +1,50 @@
+.social-icons {
+    background-color: rgba(248, 239, 239, 1);
+    padding: 14px 0 17px 0;
+}
+
+.social-icons__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons__blog {
+    width: 365px;
+}
+
+.social-icons__title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 14px;
+}
+
+.social-icons__description p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}
+
+.social-icons__list {
+    display: flex;
+    justify-content: space-between;
+    width: 684px;
+}
+
+.social-icons__list-item a {
+    font-size: 42px;
+    color: #86878B;
+    transition-delay: 0.1s;
+}
+
+.social-icons__list-item:hover {
+    transform: scale(1.1);
+}
+
+.social-icons__list-item a:hover {
+    color: #EC7979;
+}

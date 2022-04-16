@@ -1,10 +1,11 @@
-.card{
+.card {
     margin: 0 15px;
     width: 350px;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
-.card__img{
+
+.card__img {
     width: 70px;
     height: 70px;
     border: 1px solid rgba(231, 36, 36, 1);
@@ -17,13 +18,19 @@
     overflow: hidden;
 }
 
-.card__title{
+.card__fa {
+    font-size: 30px;
+    color: orange;
+}
+
+
+.card__title {
     font-weight: 700;
     font-size: 20px;
     margin: 30px 0 16px;
 }
 
-.card__text p{
+.card__text p {
     font-weight: 400;
     font-size: 14px;
     color: rgba(0, 0, 0, 1);
