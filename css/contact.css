@@ -1,0 +1,31 @@
+.contact__form {
+    margin: 91px 0 69px;
+}
+
+.contact__form__form-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact__form__right-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 39%;
+}
+
+.contact__form__left-part {
+   width: 39%;
+}
+
+.form-content__item{
+    width: 100%;
+}
+
+.contact__btn {
+    text-align: center;
+}
+.contact__btn button:hover {
+    background-color: rgba(236, 121, 121, 0.8);
+}

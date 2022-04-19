@@ -1,10 +1,12 @@
 @import url("../css/cdn.css");
 @import url("../css/header.css");
+@import url("../css/first-screen.css");
 @import url("../css/social-icons.css");
 @import url("../css/our_process.css");
 @import url("../css/pricing.css");
 @import url("../css/testtimonials.css");
 @import url("../css/noname-section.css");
+@import url("../css/contact.css");
 @import url("../css/footer.css");
 
 * {
@@ -69,4 +71,51 @@ section {
     font-size: 15px;
     font-weight: 600;
     line-height: 20px;
+}
+
+label{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+}
+
+input {
+    display: block;
+    width: 100%;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #bdbdbd;
+    padding-bottom: 2px;
+    margin-bottom: 18px;
+}
+
+input[type="password"]{
+    margin-bottom: 0;
+}
+
+textarea{
+    display: block;
+    width: 100%;
+    height: 216px;
+    outline: none;
+    resize: none;
+    border: 0;
+    border-bottom: 1px solid #bdbdbd;
+    padding-bottom: 2px; 
+}
+
+.btn-background{
+    position: relative;
+    font-family: 'Open Sans';
+    width: 166px;
+    height: 42px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    background-color: rgba(236, 121, 121, 1);
 }
