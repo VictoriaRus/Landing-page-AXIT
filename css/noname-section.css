@@ -4,7 +4,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    text-align: center;
     padding: 57px 0 38px;
 }
 
@@ -19,15 +18,18 @@
     z-index: 1;
 }
 
+.noname-section__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .noname-section__title {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 36px;
-    text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    position: relative;
-    z-index: 2;
 }
 
 .noname-section__title::after {
@@ -48,12 +50,4 @@
     font-weight: 400;
     font-size: 14px;
     color: #FFFFFF;
-    text-align: center;
-    position: relative;
-    z-index: 2;
-}
-
-.btn:hover{
-    background-color: rgba(236, 121, 121, 1);
-    border: 1px solid rgba(236, 121, 121, 1);
 }

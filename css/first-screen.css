@@ -21,20 +21,19 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: relative;
-    z-index: 2;
-}
-
-.right-part {
-    width: 544px;
 }
 
 .left-part {
+    width: 48%;
+}
+
+.right-part {
     font-family: 'Open Sans';
 }
 
-.main-title {
+.first-screen__logo {
     position: relative;
+    display: block;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 60px;
@@ -43,22 +42,20 @@
     margin-bottom: 42px;
 }
 
-.main-title::after {
+.first-screen__logo::after {
     content: "AX";
     position: absolute;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 60px;
     line-height: 70px;
-    top: 0;
     left: 0;
     color: #ffffff;
 }
 
-.main-title:hover::after {
+.first-screen__logo:hover::after {
     content: "AX";
     position: absolute;
-    top: 0;
     left: 0;
     color: rgba(236, 121, 121, 1);
 }
@@ -94,17 +91,16 @@
 }
 
 .first-screen__form {
-    position: relative;
     width: 370px;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 1);
 }
 
 .first-screen__form__content {
-    padding: 44px 59px 61px 59px;
+    padding: 34px 59px 51px 59px;
 }
 
-.first-screen__form h3 {
+.first-screen__form__title {
     text-align: center;
     font-family: 'Open Sans';
     font-weight: 700;
@@ -113,11 +109,11 @@
     color: #333333;
 }
 
-.first-screen__form span {
+.first-screen__form__title span {
     color: rgba(236, 121, 121, 1);
 }
 
-.first-screen__form button {
+.first-screen__form__button {
     display: block;
     width: 100%;
     margin: auto;
@@ -130,6 +126,6 @@
     color: #FFFFFF;
 }
 
-.first-screen__form button:hover {
-    background-color: rgba(236, 121, 121, 0.8);
+.first-screen__form__button:hover {
+    background-color: rgb(240, 148, 148);
 }

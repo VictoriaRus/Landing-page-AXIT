@@ -14,10 +14,10 @@
     <header>
         <div class="container">
             <div class="header__wrap">
-                <div class="logo">
-                    <h2><a href="#">AXIT</a></h2>
-                </div>
-                <nav>
+                <span class="logo">
+                    <a href="#">AXIT</a>
+                </span>
+                <nav class="navigation">
                     <ul class="navigation-list">
                         <li class="navigation-list-item"><a href="#">feautures</a></li>
                         <li class="navigation-list-item"><a href="#">about</a></li>
@@ -33,18 +33,18 @@
     <section class="first-screen">
         <div class="container">
             <div class="wrapper">
-                <div class="right-part">
-                    <h1 class="main-title">AXIT</h1>
-                    <h2 class="first-screen__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h2>
+                <div class="left-part">
+                    <span class="first-screen__logo">AXIT</span>
+                    <h1 class="first-screen__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
                     <div class="first-screen__description">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean</p>
                     </div>
-                    <button class="btn">Download</button>
+                    <div class="btn-download"><a href="#">Download</a></div>
                 </div>
 
-                <div class="left-part">
-                    <form class="first-screen__form">
-                        <h3>Try Your <span>FREE</span> Trial Today</h3>
+                <div class="right-part">
+                    <form class="first-screen__form" name="main-screen">
+                        <h3 class="first-screen__form__title">Try Your <span>FREE</span> Trial Today</h3>
                         <div class="first-screen__form__content">
                             <div class="form-content__item">
                                 <label for="name">Name</label>
@@ -59,7 +59,7 @@
                                 <input type="password" id="password">
                             </div>
                         </div>
-                        <button type="button">Get Started</button>
+                        <button class="first-screen__form__button" type="submit">Get Started</button>
                     </form>
                 </div>
             </div>
@@ -86,6 +86,34 @@
                     <li class="social-icons__list-item"><a href="#"><i class="fa-brands fa-git-alt"></i></a></li>
                     <li class="social-icons__list-item"><a href="#"><i class="fa-solid fa-wifi"></i></a></li>
                 </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="feautures">
+        <div class="container">
+            <div class="feautures__wrap">
+                <div class="feautures__col-left">
+                    <div class="tab tab-action"><a href="#">TAB 1</a></div>
+                    <div class="tab"><a href="#">TAB 1</a></div>
+                    <div class="tab"><a href="#">TAB 1</a></div>
+                </div>
+                <div class="feautures__col-middle">
+                    <h2 class="feautures__title">Tabs with soft transitioning effect.</h2>
+                    <div class="feautures__description">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                            bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                            justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                            penatibus et magnis dis parturient montes.
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                            bibendum laoreet.</p>
+                    </div>
+                    <div class="btn-download-bgr"><a href="#">Download</a></div>
+                </div>
+                <div class="feautures__col-right">
+                    <div class="feautures__col-right__img"><img src="./img/image_right_u255@1X 1.png" alt="image_right"></div>
+                </div>
             </div>
         </div>
     </section>
@@ -261,12 +289,15 @@
 
     <section class="noname-section">
         <div class="container">
-            <h2 class="noname-section__title">STYLISH AXURE DESIGN</h2>
-            <div class="noname-section__description">
-                <p>Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!
-                </p>
+            <div class="noname-section__wrap">
+                <h2 class="noname-section__title">STYLISH AXURE DESIGN</h2>
+                <div class="noname-section__description">
+                    <p>Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than
+                        ever!
+                    </p>
+                </div>
+                <div class="btn-download"><a href="#">Download</a></div>
             </div>
-            <button class="btn">Download</button>
         </div>
     </section>
 
@@ -300,9 +331,9 @@
                         </div>
                     </div>
                 </div>
+                <button type="submit" class="btn-submit">Send Message</button>
             </form>
-            <div class="contact__btn"><button type="button" class="btn-background" form="contact">Send Message</button>
-            </div>
+
         </div>
     </section>
 

@@ -9,7 +9,7 @@ header {
     align-items: center;
 }
 
-.logo h2 a {
+.logo a {
     position: relative;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
@@ -18,7 +18,7 @@ header {
     color: #EC7979;
 }
 
-.logo h2 a::after {
+.logo a::after {
     content: "AX";
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
@@ -31,7 +31,7 @@ header {
     left: 0px;
 }
 
-.logo h2 a:hover::after {
+.logo a:hover::after {
     content: "AX";
     color: #EC7979;
     position: absolute;
