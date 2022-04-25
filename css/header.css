@@ -9,6 +9,10 @@ header {
     align-items: center;
 }
 
+.burger{
+    display: none;
+}
+
 .logo a {
     position: relative;
     font-family: 'Raleway', sans-serif;

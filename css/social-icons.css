@@ -32,11 +32,11 @@
 .social-icons__list {
     display: flex;
     justify-content: space-between;
-    width: 684px;
+    width: 50%;
 }
 
 .social-icons__list-item a {
-    font-size: 42px;
+    font-size: 2.625rem;
     color: #86878B;
     transition-delay: 0.1s;
 }

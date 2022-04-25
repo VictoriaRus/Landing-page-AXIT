@@ -27,7 +27,7 @@
 .noname-section__title {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 2.25rem;
     text-transform: uppercase;
     color: #FFFFFF;
 }
@@ -37,7 +37,7 @@
     width: 64px;
     height: 1px;
     display: block;
-    margin: 34px auto;
+    margin: 2.125rem auto;
     background-color: #FFFFFF;
 }
 
