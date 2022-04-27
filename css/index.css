@@ -20,6 +20,7 @@
 
 html {
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -147,7 +148,7 @@ textarea {
     padding-bottom: 2px;
 }
 
-@media screen and (max-width: 1200px) and (orientation: landscape) {
+@media screen and (max-width: 1200px) {
     html {
         font-size: 14px;
     }
@@ -165,7 +166,7 @@ textarea {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 420px;
+        width: 45%;
     }
 
     .card,
@@ -175,7 +176,7 @@ textarea {
     }
 }
 
-@media screen and (max-width: 992px) and (orientation: landscape){
+@media screen and (max-width: 992px) {
     html {
         font-size: 13px;
     }
@@ -215,7 +216,7 @@ textarea {
     }
 
     .features__col-middle {
-        width: 320px;
+        width: 45%;
     }
 
     .features__description p {
@@ -245,7 +246,7 @@ textarea {
     }
 }
 
-@media screen and (max-width: 767px) and (orientation: landscape) {
+@media screen and (max-width: 767px) {
     html {
         font-size: 12px;
     }
@@ -257,9 +258,10 @@ textarea {
     .first-screen {
         height: auto;
     }
+
 }
 
-@media screen and (max-width: 430px) and (orientation: portrait) {
+@media screen and (max-width: 719px) {
     html {
         font-size: 12px;
     }
@@ -268,19 +270,34 @@ textarea {
         max-width: 100%;
     }
 
-    .navigation {
-        display: none;
+    .left-part {
+        width: 40%;
     }
 
-    .burger{
-        display: inline;
-        margin-right: 15px;
+}
+
+@media screen and (max-width: 643px) {
+    html {
+        font-size: 12px;
     }
 
-    .burger i{
-        font-weight: 600;
-        font-size: 25px;
-        color: #BDBDBD;
+    .container {
+        max-width: 100%;
+    }
+
+    .features__col-middle {
+        width: 40%;
+    }
+
+}
+
+@media screen and (max-width: 603px) {
+    html {
+        font-size: 12px;
+    }
+
+    .container {
+        max-width: 100%;
     }
 
     label {
@@ -299,11 +316,50 @@ textarea {
         margin-bottom: 0;
     }
 
+    /*header*/
+    header {
+        position: fixed;
+        padding: 8px 0;
+        width: 100%;
+        top: 0;
+    }
+
+    .header__wrap {
+        align-items: flex-start;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .open {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .open-li {
+        margin: auto;
+    }
+
+    .burger {
+        display: inline;
+        margin-right: 15px;
+    }
+
+    .burger i {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 35px;
+        color: rgba(255, 255, 255, 0.7);
+    }
+
     /*first-screen*/
     .first-screen {
         height: auto;
+        margin-top: 51px;
     }
-    
+
     .wrapper {
         flex-direction: column;
         align-items: center;
@@ -343,10 +399,12 @@ textarea {
     .features__wrap {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .features__col-left {
         display: flex;
+        align-self: start;
         margin-bottom: 10px;
     }
 
@@ -363,7 +421,8 @@ textarea {
     .features__title {
         margin-bottom: 14px;
     }
-    .features__description{
+
+    .features__description {
         margin-bottom: 16px;
     }
 
@@ -380,17 +439,19 @@ textarea {
     .contact__form__left-part {
         width: 100%;
     }
+
     .form-content__item:last-child {
         margin-bottom: 15px;
     }
 }
-@media screen  and (max-width: 376px) and (orientation: portrait){
+
+@media screen and (max-width: 376px) {
     html {
         font-size: 12px;
     }
 
     .container {
-       width: 100%;
+        width: 100%;
     }
 
     .first-screen__form {
@@ -408,13 +469,13 @@ textarea {
     }
 }
 
-@media screen  and (max-width: 320px) and (orientation: portrait){
+@media screen and (max-width: 320px) {
     html {
         font-size: 12px;
     }
 
     .container {
-       width: 100%;
+        width: 100%;
     }
 
     .first-screen__form {
@@ -427,6 +488,9 @@ textarea {
         width: 100%;
     }
 
-    
+    /*noname-section*/
+    .noname-section__title {
+        text-align: center;
+    }
 
 }
