@@ -335,11 +335,17 @@ textarea {
     .open {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 90%;
+        height: 100vh;
     }
 
     .open-li {
         margin: auto;
+        text-align: center;
+    }
+
+    .fixed-page{
+        overflow: hidden;
     }
 
     .burger {

@@ -13,7 +13,7 @@ $().ready(function () {
         $('.navigation').toggleClass('open');
         $('.navigation-list').toggleClass('open');
         $('.navigation-list-item').toggleClass('open-li');
-
+        $('body').toggleClass('fixed-page');
     });
 
     $('.navigation-list-item').click(function () {
@@ -27,7 +27,7 @@ $().ready(function () {
         $('.navigation').toggleClass('open');
         $('.navigation-list').toggleClass('open');
         $('.navigation-list-item').toggleClass('open-li');
-
+        $('body').toggleClass('fixed-page');
     });
 
 
