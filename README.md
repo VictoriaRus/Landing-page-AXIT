@@ -1,4 +1,4 @@
-# LANDING PAGE
+# Landing page AXIT
 
 [open Landing page](https://victoriarus.github.io/FE29-LandingPage-Rusetskaya-Vika/)
 
