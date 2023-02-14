@@ -1,6 +1,6 @@
 # Landing page AXIT
 
-[open Landing page](https://victoriarus.github.io/FE29-LandingPage-Rusetskaya-Vika/)
+[open Landing page](https://victoriarus.github.io/Landing-page-AXIT/)
 
 ### List of technologies
 - JavaScript (jQuery);
